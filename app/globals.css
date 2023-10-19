@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Rubik+Mono+One&family=Source+Code+Pro:wght@200;400&family=Staatliches&display=swap');
+@import url('/fonts/fonts.css');
+@import url("https://video-react.github.io/assets/video-react.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html, :root {
+    height:100%;
+    background-color: black;
+    color: white;
+  }
+  
+  .animate-scale:hover {
+    animation: scaleAnimation 2s infinite;
+  }
+
+  .arrow {
+    background: url("/arrow.png");
+  }
+
+  .arrow:hover {
+    background: url("/arrowH.png");
+  }
+  
+  @keyframes scaleAnimation {
+    50% {
+      transform: scale(0.98);
+    }
+  }
+
+  .blog1 {
+    background-image: url("/blog1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .blog2 {
+    background-image: url("/blog2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .blog3 {
+    background-image: url("/blog3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .animate-arrow {
+    animation: arrowAnimation 4s linear 0s infinite normal;
+  }
+  
+  @keyframes arrowAnimation {
+    0% {
+      transform: translateX(0);
+      transform: scale(0);
+    }
+    10% {
+      transform: translateX(10);
+      transform: scale(1);
+    }
+    25% {
+      transform: translateX(25);
+      transform: scale(2);
+    }
+    50% {
+      transform: translateX(50);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+    50% {
+      transform: translateX(50);
+    }
+    25% {
+      transform: translateX(25);
+      transform: scale(2);
+    }
+    10% {
+      transform: translateX(10);
+      transform: scale(1);
+    }
+    0% {
+      transform: translateX(0);
+      transform: scale(0);
+    }
+  }
+
+  .animate-arrow2 {
+    animation: arrowAnimation2 3s linear 0s infinite normal;
+  }
+  
+  @keyframes arrowAnimation2 {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(10);
+    }
+    25% {
+      transform: translateX(25);
+    }
+    50% {
+      transform: translateX(50);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+    50% {
+      transform: translateX(50);
+    }
+    25% {
+      transform: translateX(25);
+    }
+    10% {
+      transform: translateX(10);
+    }
+    0% {
+      transform: translateX(0);
+    }
+  }

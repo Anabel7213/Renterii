@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Kenyan Coffee Rg';
+    src: url('KenyanCoffeeRg-Bold.eot');
+    src: url('KenyanCoffeeRg-Bold.eot?#iefix') format('embedded-opentype'),
+        url('KenyanCoffeeRg-Bold.woff2') format('woff2'),
+        url('KenyanCoffeeRg-Bold.woff') format('woff'),
+        url('KenyanCoffeeRg-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee Rg';
+    src: url('KenyanCoffeeRg-Regular.eot');
+    src: url('KenyanCoffeeRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KenyanCoffeeRg-Regular.woff2') format('woff2'),
+        url('KenyanCoffeeRg-Regular.woff') format('woff'),
+        url('KenyanCoffeeRg-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
